@@ -1,6 +1,6 @@
 def oxford_comma(array)
 array[-1]="and "<<array[-1]
-array.join(", ")
+my_string=array.join(", ")
 
-return array
+return my_string
 end
