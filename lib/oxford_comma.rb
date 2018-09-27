@@ -1,6 +1,6 @@
 def oxford_comma(array)
-arr[-1]="and "<<arr[-1]
-arr.join(" ")
+array[-1]="and "<<arr[-1]
+array.join(" ")
 
-return arr
+return array
 end
